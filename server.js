@@ -6,9 +6,29 @@ const PORT = 3000;
 app.use(cors());
 
 const ghibliFilms = {
-    'princess mononoke': {
+    'nausicaa of the valley of the wind': {
         'director': 'Hayao Miyazaki',
-        'year': 1997,
+        'year': 1984,
+        'music': 'Joe Hisaishi'
+    },
+    'castle in the sky': {
+        'director': 'Hayao Miyazaki',
+        'year': 1986,
+        'music': 'Joe Hisaishi'
+    },
+    'grave of the fireflies': {
+        'director': 'Isao Takahata',
+        'year': 1988,
+        'music': 'Michio Mamiya'
+    },
+    'my neighbor totoro': {
+        'director': 'Hayao Miyazaki',
+        'year': 1988,
+        'music': 'Joe Hisaishi'
+    },
+    'kiki\'s delivery service': {
+        'director': 'Hayao Miyazaki',
+        'year': 1989,
         'music': 'Joe Hisaishi'
     },
     'only yesterday': {
@@ -16,15 +36,93 @@ const ghibliFilms = {
         'year': 1991,
         'music': 'Masaru Hoshi'
     },
+    'only yesterday': {
+        'director': 'Isao Takahata',
+        'year': 1991,
+        'music': 'Masaru Hoshi'
+    },
+    'porco rosso': {
+        'director': 'Hayao Miyazaki',
+        'year': 1992,
+        'music': 'Joe Hisaishi'
+    },
+    'ocean waves': {
+        'director': 'ITomomi Mochizuki n/ Kaori Nakamura (Keiko Niwa)',
+        'year': 1993,
+        'music': 'Shigeru Nagata'
+    },
+    'pom poko': {
+        'director': 'Isao Takahata',
+        'year': 1994,
+        'music': 'Shang Shang Typhoon'
+    },
+    'whisper of the heart': {
+        'director': 'Yoshifumi Kondō n/ Hayao Miyazaki',
+        'year': 1995,
+        'music': 'Yuji Nomi'
+    },
+    'my neighbors the yamadas': {
+        'director': 'Isao Takahata',
+        'year': 1999,
+        'music': 'Akiko Yano'
+    },
+    'spirited away': {
+        'director': 'Hayao Miyazaki',
+        'year': 2001,
+        'music': 'Joe Hisaishi'
+    },
+    'the cat returns': {
+        'director': 'Hiroyuki Morita /n Reiko Yoshida',
+        'year': 2002,
+        'music': 'Yuji Nomi'
+    },
+    'howls moving castle': {
+        'director': 'Hayao Miyazaki',
+        'year': 2004,
+        'music': 'Joe Hisaishi'
+    },
+    'tales from earthsea': {
+        'director': 'Goro Miyazaki',
+        'year': 2006,
+        'music': 'Tamiya Terashima'
+    },
+    'ponyo': {
+        'director': 'Hayao Miyazaki',
+        'year': 2008,
+        'music': 'Joe Hisaishi'
+    },
     'arrietty': {
         'director': 'Hiromasa Yonebayashi',
         'year': 2010,
         'music': 'Cécile Corbel'
     },
+    'from up on poppy hill': {
+        'director': 'Goro Miyazaki',
+        'year': 2011,
+        'music': 'Satoshi Takebe'
+    },
+    'the wind rises': {
+        'director': 'Hayao Miyazaki',
+        'year': 2013,
+        'music': 'Joe Hisaishi'
+    },
+    'the tale of princess kaguya': {
+        'director': 'Isao Takahata',
+        'year': 2013,
+        'music': 'Joe Hisaishi'
+    },
+    'when marnie was there': {
+        'director': 'Hiromasa Yonebayashi',
+        'year': 2014,
+        'music': 'Takatsugu Muramatsu'
+    },
+    'earwig and the witch': {
+        'director': 'Goro Miyazaki',
+        'year': 2020,
+        'music': 'Satoshi Takebe'
+    },
     'ghibli': {
-        'director': 'Dylan',
-        'year': 'Dylan',
-        'music': 'Dylan'
+        'director': 'Type in a Studio Ghibli movie to find out more!'
     }
 };
 
