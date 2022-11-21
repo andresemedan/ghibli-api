@@ -47,7 +47,7 @@ const ghibliFilms = {
         'music': 'Joe Hisaishi'
     },
     'ocean waves': {
-        'director': 'ITomomi Mochizuki \n Kaori Nakamura (Keiko Niwa)',
+        'director': 'Itomomi Mochizuki \n Kaori Nakamura (Keiko Niwa)',
         'year': 1993,
         'music': 'Shigeru Nagata'
     },
