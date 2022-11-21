@@ -47,7 +47,7 @@ const ghibliFilms = {
         'music': 'Joe Hisaishi'
     },
     'ocean waves': {
-        'director': 'ITomomi Mochizuki n/ Kaori Nakamura (Keiko Niwa)',
+        'director': 'ITomomi Mochizuki \n Kaori Nakamura (Keiko Niwa)',
         'year': 1993,
         'music': 'Shigeru Nagata'
     },
@@ -57,7 +57,7 @@ const ghibliFilms = {
         'music': 'Shang Shang Typhoon'
     },
     'whisper of the heart': {
-        'director': 'Yoshifumi Kondō n/ Hayao Miyazaki',
+        'director': 'Yoshifumi Kondō \n Hayao Miyazaki',
         'year': 1995,
         'music': 'Yuji Nomi'
     },
@@ -72,7 +72,7 @@ const ghibliFilms = {
         'music': 'Joe Hisaishi'
     },
     'the cat returns': {
-        'director': 'Hiroyuki Morita /n Reiko Yoshida',
+        'director': 'Hiroyuki Morita \n Reiko Yoshida',
         'year': 2002,
         'music': 'Yuji Nomi'
     },
