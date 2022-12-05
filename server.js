@@ -45,7 +45,7 @@ const ghibliFilms = {
         'director': 'Itomomi Mochizuki \n Kaori Nakamura (Keiko Niwa)',
         'year': 1993,
         'music': 'Shigeru Nagata',
-        'image': 'https://www.ghibli.jp/works/umi/#frame&gid=1&pid=24'
+        'image': 'https://www.ghibli.jp/works/umi/#frame&gid=1&pid=24' //doesn't quite work yet...
     },
     'pom poko': {
         'director': 'Isao Takahata',
