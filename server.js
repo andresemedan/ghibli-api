@@ -36,11 +36,6 @@ const ghibliFilms = {
         'year': 1991,
         'music': 'Masaru Hoshi'
     },
-    'only yesterday': {
-        'director': 'Isao Takahata',
-        'year': 1991,
-        'music': 'Masaru Hoshi'
-    },
     'porco rosso': {
         'director': 'Hayao Miyazaki',
         'year': 1992,
@@ -49,7 +44,8 @@ const ghibliFilms = {
     'ocean waves': {
         'director': 'Itomomi Mochizuki \n Kaori Nakamura (Keiko Niwa)',
         'year': 1993,
-        'music': 'Shigeru Nagata'
+        'music': 'Shigeru Nagata',
+        'image': '/images/Ocean Waves.jpg'
     },
     'pom poko': {
         'director': 'Isao Takahata',
