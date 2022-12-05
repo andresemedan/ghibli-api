@@ -130,6 +130,10 @@ app.get('/', (request, response) =>  {
     response.sendFile(__dirname + '/index.html')
 });
 
+app.get('/api', (request, response) => {
+    response.json(ghibliFilms)
+})
+
 app.get('/api/:filmsName', (request,response)=>{
     const filmName = request.params.filmsName.toLowerCase();
     if(ghibliFilms[filmName]){

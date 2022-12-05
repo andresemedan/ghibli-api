@@ -7,7 +7,9 @@ async function apiRequest(){
         const data = await response.json()
 
         console.log(data)
-        document.querySelector('h2').innerText = data.director   
+        document.getElementById('director').innerText = "Director: \n" + data.director   
+        document.getElementById('composer').innerText = "Composer: \n" + data.music
+        document.getElementById('year').innerText = "Year released: \n" + data.year
     }catch(error){
         console.log(error)
     }
