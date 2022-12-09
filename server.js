@@ -46,7 +46,7 @@ const ghibliFilms = {
         'director': 'Itomomi Mochizuki \n Kaori Nakamura (Keiko Niwa)',
         'year': 1993,
         'music': 'Shigeru Nagata',
-        'image': 'images/Ocean Waves.jpg' //doesn't quite work yet...
+        'image': 'public/images/Ocean Waves.jpg' //doesn't quite work yet...
     },
     'pom poko': {
         'director': 'Isao Takahata',
