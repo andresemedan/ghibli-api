@@ -4,7 +4,7 @@ const cors = require('cors');
 const PORT = 3000;
 
 app.use(cors());
-app.use(express.static(path.join(__dirname, "js")));
+app.use(express.static('public'));
 
 const ghibliFilms = {
     'nausicaa of the valley of the wind': {
